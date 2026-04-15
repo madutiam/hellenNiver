@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para minha melhor amiga</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- TELA 1 -->
+  <section class="screen screen-1 active" id="screen1">
+    <img src="fundo1.png" alt="Fundo" class="bg-cover" />
+
+    <div class="envelope-wrap">
+      <img src="envelope-removebg-preview.png" alt="Envelope" class="envelope" />
+      <button id="openSeal" class="seal-button" aria-label="Abrir selo"></button>
+    </div>
+
+    <p class="hint">clique no selo</p>
+  </section>
+
+  <!-- TELA 2 -->
+  <section class="screen screen-2" id="screen2">
+    <img src="Abra o selo.png" alt="Carta" class="letter-img" />
+    <div class="audio-indicator">tocando sua mensagem...</div>
+  </section>
+
+  <audio id="birthdayAudio" preload="auto">
+    <source src="WhatsApp Audio 2026-04-15 at 16.19.50.mpeg" type="audio/mpeg" />
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
